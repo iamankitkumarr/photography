@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,600;0,700;1,100&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+
+</head>
+<body>
+    <section class="header">
+    <nav>
+        <a href="main.html"><img src="images/camlogo.png"></a>
+       
+        <div class="nav-links" id="navLinks">
+           
+          
+
+            <ul>
+               <li><i class="fas fa-times" onclick="hideMenu()"> </i></li> 
+                <li><a href="">HOME</a></li>
+                <li><a href="">ABOUT</a></li>
+                <li><a href="">FACILITIES</a></li>
+                <li><a href="">BLOG</a></li>
+                <li><a href="">CONTACT</a></li>
+            </ul>
+        </div>
+        <i class="fas fa-bars" onclick="showMenu()"></i>
+       
+    </nav>
+   <div class="text-box">
+       <h1> The Best Photographer </h1>
+       <p>We Click We Create Memories <br> We cherish your happiness <br> Let's join together to create happiness. </p>
+       <a href="" class="hero-btn">Visit Us TO Know More</a>
+   </div>
+    </section>
+
+<!------Services-->
+<section class="service">
+    <h1>Services We Offer.</h1>
+    <p>We are best in our Services.</p>
+
+    <div class="row">
+        <div class="service-col">
+        <h3>Classical Photoshoot</h3> 
+        <p> It looks so authentic and in my opinion you should post it as an example of what makes a, to use your word</p>
+    </div>
+            <div class="service-col">
+        <h3>Cinematography Photoshoot</h3>
+        <p>Cinematography, the art and technology of motion-picture photography.</p>
+    </div>
+            <div class="service-col">
+        <h3>Portfolio Photoshoot</h3>
+        <p>A portfolio is a concise collection of your photos created to show people your best work.</p>
+    </div>
+    </div>
+</section>
+<!--------------Our Work-->
+<section class="work">
+    <h1>Our Work</h1>
+<p>We provide best thing.</p>
+
+<div class="row">
+    <div class="work-col">
+        <img src="images/5.jpg">
+        <div class="layer">
+            <h3>Photoshoot</h3>
+        </div>
+    </div>
+    <div class="work-col">
+        <img src="images/8.jpg">
+        <div class="layer">
+            <h3>Weeding photography</h3>
+        </div>
+    </div>
+
+    <div class="work-col">
+        <img src="images/6.jpg">
+        <div class="layer">
+            <h3>Potrait Photography</h3>
+        </div>
+    </div>
+
+</div>
+</section>
+
+<!--------------Facilities-------------------------->
+
+<section class="facilities">
+    <h1> Our Facilities</h1>
+    <p> We Serve Our best facilities</p>
+
+    <div class="row">
+        <div class="facilities-col">
+            <img src="images/10.jpeg">
+            <h3>Our Ladies Photographer</h3>
+            <p> We have professional ladies photographer.</p>
+        </div>
+
+        <div class="facilities-col">
+            <img src="images/11.jpg">
+            <h3>Our Studio Space</h3>
+            <p> We have our own santaized space.</p>
+        </div>
+        <div class="facilities-col">
+            <img src="images/12.jpg">
+            <h3>Our enhanced Lenses</h3>
+            <p> We Prefers best lenses.</p>
+        </div>
+    </div>
+     
+
+
+</section>
+
+
+<!-------------Testimonials-------------------------->
+<section class="testimonals">
+<h1> What our Customer Says </h1>
+<p> We Serve best.</p>
+
+<div class="row">
+    <div class="testimonal-col">
+        <img src="images/user1.jpg">
+<div>
+    <p>They are really awesome and professional one.</p>
+<h3>Daljit Dosanjh</h3>
+<i class="fas fa-star"></i>
+<i class="fas fa-star"></i>
+<i class="fas fa-star"></i>
+<i class="fas fa-star"></i>
+<i class="fas fa-star-half-o"></i>
+</div>
+
+</div>
+<div class="testimonal-col">
+    <img src="images/user2.jpg">
+<div>
+<p>They are Cool and professional one.</p>
+<h3>MS Dhoni</h3>
+<i class="fas fa-star"></i>
+<i class="fas fa-star"></i>
+<i class="fas fa-star"></i>
+<i class="fas fa-star"></i>
+<i class="fas fa-star"></i>
+</div>
+
+</div>
+
+
+
+</div>
+
+
+</section>
+<!------------------ Call to Action    --------->
+<section class="cta">
+    <h1>
+        Contact Us for making your Function memorable.
+    </h1>
+    <a href="" class="hero-btn"> CONTACT US </a>
+</section>
+
+
+<!------------------ Footer    --------->
+
+<section class="footer">
+    <h4>About US</h4>
+    <p>We are professional team.</p>
+    <div class="icons">
+        <i class="fab fa-facebook"></i>
+        <i class="fab fa-twitter-square"></i>
+        <i class="fab fa-instagram"></i>
+        <i class="fab fa-linkedin-in"></i>
+
+    </div>
+    <p>Made with <i class="fas fa-heart"></i></i>  by Ankit</p>
+</section>
+
+
+<!------------------ Javascript for Toggle Menu    --------->
+<script>
+    var navLinks= document.getElementById("navLinks"); 
+   
+
+    function showMenu() {
+        navLinks.style.right = "0";
+    }
+    function hideMenu() {
+        navLinks.style.right = "-200px";
+    }
+
+</script>
+
+</body>
+</html>
